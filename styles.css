@@ -18,7 +18,8 @@ body {
 /* Sección hero */
 .hero {
 
-    height: 100vh;
+    height: auto;
+    width: 100%;
     background-image: url('img/fondo.jpg');
     background-size: cover;
     background-position: center;
@@ -70,20 +71,20 @@ body {
 
   @media (max-width: 1024px) {
     .logo {
-        width: 150px; /* Reduce el tamaño en pantallas medianas */
+        width: 0px; /* Reduce el tamaño en pantallas medianas */
     }
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 120px; /* Tamaño más pequeño en tablets */
+        width: 0px; /* Tamaño más pequeño en tablets */
     }
 }
 
 @media (max-width: 480px) {
     .logo {
-        width: 90px; /* Tamaño compacto para celulares */
-        margin-right: 10px; /* Reduce el margen */
+        width: 0px; /* Tamaño compacto para celulares */
+       
     }
 }
 
