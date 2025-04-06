@@ -19,7 +19,7 @@ body {
 .hero {
 
     height: 100vh;
-    background-image: url('img/fondo.jp');
+    background-image: url('img/fondo.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Mantiene la imagen fija */
