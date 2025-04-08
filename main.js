@@ -3,10 +3,10 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   const frases = [
-      "EQUILIBRIO",
-      "CUIDADO",
-      "CRECIMIENTO",
-      "EVOLUCIÓN",
+      "EQUILIBRIO ",
+      "CUIDADO ",
+      "CRECIMIENTO ",
+      "EVOLUCIÓN ",
   ];
 
   const fraseElemento = document.getElementById("fr");
