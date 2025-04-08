@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const frases = [
       "EQUILIBRIO ",
       "CUIDADO ",
-      "CRECIMIENTO ",
+      "BIENESTAR ",
       "EVOLUCIÓN ",
   ];
 
