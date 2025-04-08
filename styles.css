@@ -16,44 +16,43 @@ body {
 
 
 /* Sección hero */
+/* Sección hero */
 .hero {
-
-    height: auto;
-    width: 100%;
-    background-image: url('img/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Mantiene la imagen fija */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-   
-  
-
-
+  width: 100%;
+  height: 100vh; /* Pantallas grandes usa todo el alto */
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-
-
+/* Tablets */
 @media (max-width: 768px) {
-    .hero {
-        height: 70vh; /* Reduce más la altura en tablets */
-        padding: 15px;
-        padding-top: 100px;
-    }
+  .hero {
+      height: 50vh; /* Reduce bastante para mostrar más imagen */
+      padding: 20px;
+      padding-top: 80px;
+      background-attachment: scroll; /* Corrige bugs en móviles */
+      background-size: cover;
+  }
 }
 
+/* Celulares */
 @media (max-width: 480px) {
-    .hero {
-        height: 60vh; /* Hace la sección más pequeña en celulares */
-        background-position: center;
-        background-size: cover; /* Asegura que la imagen se vea completa */
-        padding: 10px;
-        padding-top: 100px;
-    }
+  .hero {
+      height: 40vh; /* Aún más pequeña en celulares */
+      padding: 15px;
+      padding-top: 80px;
+      background-attachment: scroll;
+      background-size: cover;
+  }
 }
+
 
 
 
