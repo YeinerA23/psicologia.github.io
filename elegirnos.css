@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f1f1e;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #00ffc8 0%, #00bfa6 100%);
+    color: #0f1f1e;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero-texto h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-texto span {
+    color: #ffffff;
+  }
+  
+  .hero-texto p {
+    font-size: 1.2em;
+  }
+  
+  .razones {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+  .razon {
+    margin-bottom: 60px;
+    border-left: 4px solid #00ffc8;
+    padding-left: 20px;
+  }
+  
+  .razon h2 {
+    font-size: 1.6em;
+    color: #00ffc8;
+    margin-bottom: 10px;
+  }
+  
+  .razon p {
+    font-size: 1em;
+    color: #e0f7f4;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #0d1817;
+    color: #00ffc8;
+    font-size: 0.9em;
+  }
+  
